@@ -1,12 +1,12 @@
 import React from 'react'
-
+import Image from "next/image";
 export const Gallery = () => {
   return (
 <div>
-          <div className=" mt-10 mx-10 align-center w-56 p-3 rounded-xl border bg-white bg-opacity-5 border-opacity-5 group sm:w-full hidden">
+          <div className=" hidden align-center w-56 p-3 rounded-xl border bg-white bg-opacity-5 border-opacity-5 group sm:w-full ">
             
              <div className ="avatar">
-<h2 className="  lg:w-7/12 m-auto text-center font-bold text-3xl md:text-5xl text-white mt-8 mb-16 ">
+<h2 className="  lg:w-7/12 m-auto  text-center font-bold text-3xl md:text-5xl text-white mt-8 mb-16 ">
         {" "}
         Student Co-Ordinator
       </h2>{" "} 

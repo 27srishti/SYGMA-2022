@@ -12,9 +12,9 @@ export default function Reg  () {
       src="https://docs.google.com/forms/d/e/1FAIpQLScw76BLW0VDu4FBS9yL-EVx-7sZbwdl_x0UsBjoBDdlOEX4xQ/viewform?embedded=true"
       width="640"
       height="2599"
-      frameborder="0"
-      marginheight="0"
-      marginwidth="0"
+      frameBorder="0"
+      marginHeight="0"
+      marginWidth="0"
     >
       Loading…
     </iframe></center>
