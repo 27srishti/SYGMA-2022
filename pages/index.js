@@ -183,7 +183,7 @@ function Nav() {
             Persuit Of Betterness
           </h1>
 
-          <div className="w-full max-w-sm mx-auto mt-6  dark:border-gray-600  focus-within:ring-blue-300 dark:focus-within:border-blue-300 focus-within:ring-opacity-40">
+          <div className="w-full mb-10 max-w-sm mx-auto mt-6  dark:border-gray-600  focus-within:ring-blue-300 dark:focus-within:border-blue-300 focus-within:ring-opacity-40">
             <Link href="/Reg">
               <a
                 type="button"
