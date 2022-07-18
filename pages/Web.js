@@ -44,8 +44,8 @@ export default function Events() {
                 Co-ordinators:
               </h5>
               <h5 className="px-10 lg:px-28  lg:full sm:w-full">
-                Chaithali- 9164544317 <br />
-                Srishti Suratkal- 7353098307
+                 Srishti Suratkal- 7353098307 <br />Chaithali- 9164544317
+               
               </h5>
               <br />
             </div>

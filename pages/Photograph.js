@@ -33,17 +33,16 @@ export default function Events() {
               </h5>
               <h5 className="px-10 lg:px-28  lg:full sm:w-full">
                 {" "}
-                - Participants can choose languages like C, C++, Java, Python.{" "}
-                <br /> - Participants should be familiar with Competitive
-                Programming.
+                - Participants must get their own gear.
+                <br />- Gear includes any Camera of your choice, Laptop.
               </h5>
               <br />{" "}
               <h5 className="mt-1 px-5 text-xl text-start text-gray-300 group-hover:text-white lg:px-20 lg:full sm:w-full">
                 Co-ordinators:
               </h5>
               <h5 className="px-10 lg:px-28  lg:full sm:w-full">
-                Charith- 9632825359 <br />
-                Rahul Devadiga- 8970895684
+                Ashiwth 9448757292 <br />
+                Tanuj 7899311977
               </h5>
               <br />
             </div>
