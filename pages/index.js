@@ -13,49 +13,55 @@ import Image from "next/image";
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <section className=" bg-gradient-to-br from-red-800 via-yellow-600 to-yellow-500 ">
-      <div>
+    <section
+      aria-hidden="true"
+      className="absolute w-full  bg-[#020314] opacity-80
+    "
+    >
+      <div >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className=" w-10 flex items-center h-16">
             <div className="flex items-center">
               <div className="hidden md:block">
                 <center>
                   <div className="  ml-96 flex items-baseline space-x-12  ">
-                    <Link
-                      href="#Home"
-                      className=" hover:bg-gray-600 text-white px-3 py-2 rounded-md text-sm font-medium"
+                    <Link href="#Home">
+                    <a
+                     
+                      className=" hover:bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
                     >
-                      Home
+                      Home</a>
                     </Link>
-                    <Link
-                      href="#About"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    <Link href="#About">
+                     <a
+                      className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     >
-                      About
+                      About</a>
                     </Link>
-                    <Link
-                      href="/Events"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    <Link href="/Events">
+                      <a
+                      className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     >
-                      Events
+                      Events</a>
                     </Link>
                     {/* <Link
                       href="#"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                      className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     >
                       Sponsors
                     </Link> */}
-                    <Link
-                      href="#Faq"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    <Link href="#Faq">
+                      <a
+                      className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     >
-                      FAQ`s
+                      FAQ`s</a>
                     </Link>{" "}
-                    <Link
-                      href="#Footer"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    <Link href="#Footer">
+                      <a
+                     
+                      className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     >
-                      Contact
+                      Contact</a>
                     </Link>
                   </div>
                 </center>
@@ -121,14 +127,19 @@ function Nav() {
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className=" px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
+                  href="/Home"
+                  className=" text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  Home
+                </a>
+                <a
                   href="#About"
-                  className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className=" text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   About
                 </a>
-
                 <Link href="/Events">
-                  <a className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                  <a className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                     Events
                   </a>
                 </Link>
@@ -142,14 +153,14 @@ function Nav() {
 
                 <a
                   href="#Faq"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   FAQ`s
                 </a>
 
                 <a
                   href="#Footer"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Contact
                 </a>
@@ -170,7 +181,7 @@ function Nav() {
       <div className="   container px-6 py-1 mx-auto text-center" id="Home">
         <center>
           <img
-            src="https://i.postimg.cc/CLK3kHyn/Slide-4-3-15-1.png"
+            src="https://i.postimg.cc/rsnxLFHw/Slide-4-3-15-2.png"
             className=" -mt-10 h-60 w-60"
             alt="Hero Section"
           />
@@ -187,16 +198,17 @@ function Nav() {
             <Link href="/Reg">
               <a
                 type="button"
-                className="h-10  px-4 py-2 m-1 text-white transition-colors duration-200 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:bg-blue-400"
+                className="h-10  px-4 py-2 m-1 text-white transition-colors duration-200 transform bg-sky-700 rounded-md hover:bg-blue-800 focus:outline-none focus:bg-blue-400"
               >
                 Register Now
               </a>
             </Link>
           </div>
         </div>
-        <div className="h-5 max-w-screen-xl mx-auto "></div>
-      </div>{" "}
-      <div className=" relative -bottom-16 sm:-bottom-16  xl:bottom-16 lg:bottom-16">
+      </div>
+     
+
+      <div className=" relative -bottom-16 sm:-bottom-16  md:bottom-2 xl:bottom-16 lg:bottom-6">
         <svg
           viewBox="1 0 1428 174"
           version="1.1"

@@ -3,12 +3,12 @@ import Link from "next/link";
 export default function Events() {
   return (
     <div>
-      <div className="   w-full h-full bg-gray-700  group  lg:10 sm:w-full  ">
+      <div className="    group  lg:10 sm:w-full  ">
         <Link href="/Itchaser">
           <a
             title="Browse Hero Section blocks"
             aria-label="Browse Hero Section blokcs"
-            className="h-full pb-4 relative block  bg-gray-800  active:bg-opacity-90 focus:bg-opacity-80 transition"
+            className="h-full pb-4 relative block bg-[#0a0c2c]   active:bg-opacity-90 focus:bg-opacity-80 transition"
           >
             {" "}
             <div className=" top-20 py-5 rounded-2xl border border-white-700 border-opacity-70  text-start  mx-auto w-10/12 lg:top-40 px-6 md:px-10 lg:px-16 xl:px-20 relative md:rounded-2xl border border-white-700 border-opacity-70 sm:rounded-2xl border border-white-700 border-opacity-70 bg-gray-900 bg-opacity-20 backdrop-blur-xl shadow-2xl  md:-mt-20 lg:-mt-24 xl:-mt-32 transition duration-700 group-hover:scale-95">

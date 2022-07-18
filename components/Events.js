@@ -2,7 +2,7 @@ import Link from "next/link";
 export const Events = () => {
   return (
     <div
-      className=" h-7/12 -top-32 relative overflow-x-auto bg-gradient-to-r from-gray-700 via-gray-900 to-black -mx-4 px-6 lg:overflow-x-hidden py-12 lg:7/12 after:lg:py-0"
+      className=" h-7/12 -top-32 relative overflow-x-auto bg-[#020314] pb-32 -mx-4 px-6 lg:overflow-x-hidden py-12 lg:7/12 after:lg:py-0"
       id="Events"
       href="#Events"
     >

@@ -15,6 +15,7 @@ export default function Reg  () {
       frameBorder="0"
       marginHeight="0"
       marginWidth="0"
+      
     >
       Loading…
     </iframe></center>
