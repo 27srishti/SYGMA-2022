@@ -1,6 +1,10 @@
 import React from "react";
 import Link from "next/link";
-export default function Events() {
+import { useState } from 'react';
+import { Transition } from '@headlessui/react';
+
+
+export default function Events() {  const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
       <div className="    group  lg:10 sm:w-full  ">
@@ -9,7 +13,158 @@ export default function Events() {
             title="Browse Hero Section blocks"
             aria-label="Browse Hero Section blokcs"
             className="h-full pb-4 relative block  bg-[#0a0c2c]   active:bg-opacity-90 focus:bg-opacity-80 transition"
+          ><div>
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className=" w-10 flex items-center h-16">
+              <div className="flex items-center">
+                <div className="hidden md:block">
+                  <center>
+                    <div className="  ml-96 flex items-baseline space-x-12  ">
+                      <Link href="/">
+                        <a className=" hover:bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">
+                          Home
+                        </a>
+                      </Link>
+                      <Link href="/#About">
+                        <a className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                          About
+                        </a>
+                      </Link>
+                      <Link href="/#Events">
+                        <a className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                          Events
+                        </a>
+                      </Link>
+                      {/* <Link
+                        href="#"
+                        className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                      >
+                        Sponsors
+                      </Link> */}
+                      <Link href="/#Faq">
+                        <a className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                          FAQ`s
+                        </a>
+                      </Link>{' '}
+                      <Link href="/#Footer">
+                        <a className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                          Contact
+                        </a>
+                      </Link>
+                    </div>
+                  </center>
+                </div>
+              </div>
+              <div className="-mr-2 flex md:hidden">
+                <button
+                  onClick={() => setIsOpen(!isOpen)}
+                  type="button"
+                  className="  inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                  aria-controls="mobile-menu"
+                  aria-expanded="false"
+                >
+                  <span className="sr-only">Open main menu</span>
+                  {!isOpen ? (
+                    <svg
+                      className="block h-6 w-6"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M4 6h16M4 12h16M4 18h16"
+                      />
+                    </svg>
+                  ) : (
+                    <svg
+                      className="block h-6 w-6"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M6 18L18 6M6 6l12 12"
+                      />
+                    </svg>
+                  )}
+                </button>
+              </div>
+            </div>
+          </div>
+  
+          <Transition
+            show={isOpen}
+            enter="transition ease-out duration-100 transform"
+            enterFrom="opacity-0 scale-95"
+            enterTo="opacity-100 scale-100"
+            leave="transition ease-in duration-75 transform"
+            leaveFrom="opacity-100 scale-100"
+            leaveTo="opacity-0 scale-95"
           >
+            {(ref) => (
+              <div className="md:hidden" id="mobile-menu">
+                <div ref={ref} className=" px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                  <a
+                    href="/Home"
+                    className=" text-white block px-3 py-2 rounded-md text-base font-medium"
+                  >
+                    Home
+                  </a>
+                  <a
+                    href="#About"
+                    className=" text-white block px-3 py-2 rounded-md text-base font-medium"
+                  >
+                    About
+                  </a>
+                  <Link href="/Events">
+                    <a className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                      Events
+                    </a>
+                  </Link>
+  
+                  {/* <a
+                      href="#"
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                    >
+                      Sponsors
+                    </a> */}
+  
+                  <a
+                    href="#Faq"
+                    className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  >
+                    FAQ`s
+                  </a>
+  
+                  <a
+                    href="#Footer"
+                    className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  >
+                    Contact
+                  </a>
+                </div>
+              </div>
+            )}
+          </Transition>
+  
+          <main>
+            <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+              {/* <!-- Replace with your content --> */}
+  
+              {/* <!-- /End replace --> */}
+            </div>
+          </main>
+        </div>
             {" "}
             <div className=" top-20 py-5 rounded-2xl border border-white-700 border-opacity-70  text-start  mx-auto w-10/12 lg:top-40 px-6 md:px-10 lg:px-16 xl:px-20 relative md:rounded-2xl border border-white-700 border-opacity-70 sm:rounded-2xl border border-white-700 border-opacity-70 bg-gray-900 bg-opacity-20 backdrop-blur-xl shadow-2xl  md:-mt-20 lg:-mt-24 xl:-mt-32 transition duration-700 group-hover:scale-95">
               <h5 className="     text-3xl  text-center text-gray-300 group-hover:text-white lg:full sm:w-full lg:text-4xl  lg:py-10">
