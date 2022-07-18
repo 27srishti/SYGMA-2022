@@ -115,18 +115,16 @@ export default function Events() {
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className=" px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a
-                  href="/Home"
-                  className=" text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Home
-                </a>
-                <a
-                  href="/#About"
-                  className=" text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  About
-                </a>
+                <Link href="/Home">
+                  <a className=" text-white block px-3 py-2 rounded-md text-base font-medium">
+                    Home
+                  </a>
+                </Link>
+                <Link href="/#About">
+                  <a className=" text-white block px-3 py-2 rounded-md text-base font-medium">
+                    About
+                  </a>
+                </Link>
                 <Link href="/Events">
                   <a className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                     Events
@@ -139,20 +137,16 @@ export default function Events() {
                   >
                     Sponsors
                   </a> */}
-
-                <a
-                  href="/#Faq"
-                  className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  FAQ`s
-                </a>
-
-                <a
-                  href="/#Footer"
-                  className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Contact
-                </a>
+                <Link href="/#Faq">
+                  <a className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                    FAQ`s
+                  </a>
+                </Link>
+                <Link href="/#Footer">
+                  <a className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                    Contact
+                  </a>
+                </Link>
               </div>
             </div>
           )}
