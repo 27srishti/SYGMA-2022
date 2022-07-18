@@ -19,10 +19,10 @@ export const Gallery = () => {
             {' '}
             <h5 className="text-3xl font-bold dark:text-white">
               {' '}
-              Skanda Narayan Bhat
+              Skanda N
             </h5>{' '}
-            <p className=" pt-0 ml-4 mt-4 dark:text-white">
-              Phone-No : 91 6362 573 520
+            <p className=" mx-5 pt-0 ml-4 mt-4 dark:text-white">
+               +91 6362573520
             </p>
             <div className="mt-6">
               {' '}

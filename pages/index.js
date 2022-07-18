@@ -18,7 +18,7 @@ function Nav() {
       className="absolute w-full  bg-[#020314] opacity-80
     "
     >
-      <div>
+      <div className='border-b-2 h-20 border-white border-opacity-10 mb-10'>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className=" w-10 flex items-center h-16">
             <div className="flex items-center">
