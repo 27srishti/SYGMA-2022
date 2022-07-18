@@ -119,7 +119,7 @@ export const Footer = () => {
               rel="noopener"
               href="https://youtube.com/channel/UCeNtI-GE2_zqmichdQegyyg"
               title="YouTube"
-              target="_blank"
+         
               className="flex -pt-10 w-12 h-12 rounded-full bg-gray-800 bg-opacity-0 hover:bg-opacity-60 focus:bg-opacity-40 active:bg-opacity-50 transition"
             >
               <svg
