@@ -2,16 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
 html,
 body {
-  overflow-x: none;
+  overflow-x: hidden;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif, Poppins;
-;
-  
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif,
+    Poppins;
 }
 
 a {
@@ -22,5 +18,3 @@ a {
 * {
   box-sizing: border-box;
 }
-
-  

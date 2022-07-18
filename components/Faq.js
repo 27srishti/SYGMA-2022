@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export const Faq = () => {
   return (
@@ -15,7 +15,7 @@ export const Faq = () => {
         <h2 className="text-2xl font-Poppins -mt-20 py-10 dark:text-white font-semibold sm:text-4xl">
           Frequently Asked Questions
         </h2>
-        
+
         <div className="space-y-4 ">
           <details className=" mx-auto rounded-2xl border  p-5 relative md:rounded-2xl border border-gray-700 border-opacity-70 bg-gray-900 bg-opacity-40 backdrop-blur-xl shadow-2xl ">
             <summary className="px-4 py-6 dark:text-white focus:outline-none focus-visible:ring-violet-400">
@@ -58,7 +58,7 @@ export const Faq = () => {
               It depends on the event, check event rules or contact the event
               coordinator.
             </p>
-          </details>{" "}
+          </details>{' '}
           <details className="mx-auto rounded-2xl dark:text-white border p-5 relative md:rounded-2xl border border-gray-700 border-opacity-70 bg-gray-900 bg-opacity-40 backdrop-blur-xl shadow-2xl ">
             <summary className="px-4 py-6 focus:outline-none focus-visible:ring-violet-400">
               Who can participate in this event?

@@ -1,14 +1,14 @@
-import React from "react";
-import { About } from "../components/about";
-import { Events } from "../components/Events";
-import { Gallery } from "../components/Gallery";
-import { Faq } from "../components/Faq";
-import { Footer } from "../components/Footer";
-import { Sponsors } from "../components/Sponsors";
-import Link from "next/link";
-import { useState } from "react";
-import { Transition } from "@headlessui/react";
-import Image from "next/image";
+import React from 'react';
+import { About } from '../components/about';
+import { Events } from '../components/Events';
+import { Gallery } from '../components/Gallery';
+import { Faq } from '../components/Faq';
+import { Footer } from '../components/Footer';
+import { Sponsors } from '../components/Sponsors';
+import Link from 'next/link';
+import { useState } from 'react';
+import { Transition } from '@headlessui/react';
+import Image from 'next/image';
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,8 +17,8 @@ function Nav() {
       aria-hidden="true"
       className="absolute w-full  bg-[#020314] opacity-80
     "
-    > 
-      <div >
+    >
+      <div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className=" w-10 flex items-center h-16">
             <div className="flex items-center">
@@ -26,23 +26,19 @@ function Nav() {
                 <center>
                   <div className="  ml-96 flex items-baseline space-x-12  ">
                     <Link href="#Home">
-                    <a
-                     
-                      className=" hover:bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
-                    >
-                      Home</a>
+                      <a className=" hover:bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">
+                        Home
+                      </a>
                     </Link>
                     <Link href="#About">
-                     <a
-                      className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                    >
-                      About</a>
+                      <a className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                        About
+                      </a>
                     </Link>
                     <Link href="/Events">
-                      <a
-                      className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                    >
-                      Events</a>
+                      <a className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                        Events
+                      </a>
                     </Link>
                     {/* <Link
                       href="#"
@@ -51,17 +47,14 @@ function Nav() {
                       Sponsors
                     </Link> */}
                     <Link href="#Faq">
-                      <a
-                      className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                    >
-                      FAQ`s</a>
-                    </Link>{" "}
+                      <a className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                        FAQ`s
+                      </a>
+                    </Link>{' '}
                     <Link href="#Footer">
-                      <a
-                     
-                      className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                    >
-                      Contact</a>
+                      <a className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                        Contact
+                      </a>
                     </Link>
                   </div>
                 </center>
@@ -206,7 +199,6 @@ function Nav() {
           </div>
         </div>
       </div>
-     
 
       <div className=" relative -bottom-16 sm:-bottom-16  md:bottom-2 xl:bottom-16 lg:bottom-6">
         <svg
