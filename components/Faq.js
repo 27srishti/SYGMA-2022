@@ -39,7 +39,7 @@ export const Faq = () => {
               Can a participant join multiple events?
             </summary>
             <p className="px-4 py-6 pt-0 ml-4 dark:text-white -mt-4">
-              No a participant only only join 1 individual event.
+              No, A participant can only join 1 individual event.
             </p>
           </details>
           <details className="mx-auto rounded-2xl dark:text-white border p-5 relative md:rounded-2xl border border-gray-700 border-opacity-70 bg-gray-900 bg-opacity-40 backdrop-blur-xl shadow-2xl ">

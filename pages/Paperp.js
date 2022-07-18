@@ -121,7 +121,7 @@ export default function Events() { const [isOpen, setIsOpen] = useState(false);
                     Home
                   </a>
                   <a
-                    href="#About"
+                    href="/#About"
                     className=" text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     About
@@ -140,14 +140,14 @@ export default function Events() { const [isOpen, setIsOpen] = useState(false);
                     </a> */}
   
                   <a
-                    href="#Faq"
+                    href="/#Faq"
                     className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     FAQ`s
                   </a>
   
                   <a
-                    href="#Footer"
+                    href="/#Footer"
                     className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     Contact
@@ -189,9 +189,8 @@ export default function Events() { const [isOpen, setIsOpen] = useState(false);
               </h5>
               <h5 className="px-10 lg:px-28  lg:full sm:w-full">
                 {" "}
-                - Topics will be provided 2 days prior of the event. <br /> - On
-                spot registration is not allowed. <br /> - Participants have to
-                mail their presentation to :sygma.callforabstracts@gmail.com
+                - The topic for the presentation is “Evolution of technology from past to future” <br /> - On
+                spot registration is not allowed. <br />   - The participants can either mail it to the email sygma.callforabstracts@gmail.com or can directly bring it on the event day.
               </h5>
               <br />{" "}
               <h5 className="mt-1 px-5 text-xl text-start text-gray-300 group-hover:text-white lg:px-20 lg:full sm:w-full">

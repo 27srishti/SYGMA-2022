@@ -122,7 +122,7 @@ export default function Events() {
                   Home
                 </a>
                 <a
-                  href="#About"
+                  href="/#About"
                   className=" text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   About
@@ -141,14 +141,14 @@ export default function Events() {
                   </a> */}
 
                 <a
-                  href="#Faq"
+                  href="/#Faq"
                   className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   FAQ`s
                 </a>
 
                 <a
-                  href="#Footer"
+                  href="/#Footer"
                   className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Contact

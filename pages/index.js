@@ -184,7 +184,7 @@ function Nav() {
             SYGMA 2022 - MELIORA
           </h1>
           <h1 className="text-x1 p-5 text-gray-800 dark:text-white md:text-2xl">
-            Persuit Of Betterness
+           pursuit Of Betterness
           </h1>
 
           <div className="w-full mb-10 max-w-sm mx-auto mt-6  dark:border-gray-600  focus-within:ring-blue-300 dark:focus-within:border-blue-300 focus-within:ring-opacity-40">
