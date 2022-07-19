@@ -1,10 +1,9 @@
-import React from "react";
+import React from 'react';
 
 export default function Sponsor() {
   return (
     <center>
-      <div className=" w-full h-screen  bg-gradient-to-r from-green-300 via-yellow-300 to-pink-300">
-        
+      <div className=" w-full min-h-screen pb-[5rem]  bg-gradient-to-r from-green-300 via-yellow-300 to-pink-300">
         <h5 className=" pt-10  text-3xl mb-5 sm:pt-10 text-black font-bold text-center text-gray-300 group-hover:text-white lg:full sm:w-full lg:text-4xl  lg:py-10">
           SPONSOR
         </h5>
@@ -19,7 +18,7 @@ export default function Sponsor() {
           <div className="p-5">
             <a href="https://www.sulekha.com/wizdom-ed-mangalore-collectorate-mangalore-contact-address">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                WiZdom Ed{" "}
+                WiZdom Ed{' '}
               </h5>
             </a>
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-300">
