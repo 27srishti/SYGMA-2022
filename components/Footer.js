@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from 'next/link';
 export const Footer = () => {
   return (
     <footer
@@ -52,9 +52,9 @@ export const Footer = () => {
                 </a>
               </li>
               <li>
-              <a rel="noopener noreferrer" href="/Sponsor">
+              <Link rel="noopener noreferrer" href="/Sponsor">
                 Sponsor
-              </a>
+              </Link>
             </li>
               <li>
                 <a rel="noopener noreferrer" href="#Faq">
@@ -142,12 +142,12 @@ export const Footer = () => {
       <div className="py-6 text-sm text-center dark:text-gray-400">
         Shri Dharmasthala Manjunatheshwara College of Business Management - MG
         Rd, Kodailbail, Mangaluru, Karnataka 575003.- Phone: +91 824 249 4186
-        <div id="branding" class="text-center  text-base mt-3">
+        <div id="branding" className="text-center  text-base mt-3">
           Designed by{" "}
           <a
             href="https://www.instagram.com/srishti_suratkal/ "
             className="dark:text-yellow-400 "
-            target="_blank"
+           
           >
             Srishti Suratkal
           </a>
