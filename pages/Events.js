@@ -28,12 +28,11 @@ export default function Events() {
                         Events
                       </a>
                     </Link>
-                    {/* <Link
-                      href="#"
-                      className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                    >
-                      Sponsors
-                    </Link> */}
+                    <Link href="/Sponsor">
+                  <a className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                    Sponsor
+                  </a>
+                </Link>
                     <Link href="/#Faq">
                       <a className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                         FAQ`s
@@ -123,12 +122,11 @@ export default function Events() {
                   </a>
                 </Link>
 
-                {/* <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                  >
-                    Sponsors
-                  </a> */}
+                <Link href="/Sponsor">
+                  <a className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                    Sponsor
+                  </a>
+                </Link>
                 <Link href="/#Faq">
                   <a className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                     FAQ`s
@@ -154,13 +152,13 @@ export default function Events() {
       </div>
       <h2 className="  lg:w-7/12 m-auto text-center font-bold text-3xl md:text-5xl text-white mt-8 mb-16 ">
         {" "}
-        SYGMA2022- EVENTS
+        SYGMA 2022- EVENTS
       </h2>{" "}
       <div className=" py-12 grid justify-items-center py-10 py-0 relative overflow-x-auto -mx-10  bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900  lg:overflow-x-hidden py-12 lg:grid justify-items-center lg:py-10 lg:py-0">
         <center>
           <div className="  gap-6  grid  space-x-1 text-white tracking-wide sm:space-x-0 sm:gap-6 sm:grid-cols-1  -space-x-6  lg: w-full lg:grid ">
             <div>
-              <div className="w-10/12 p-3  rounded-xl border bg-white bg-opacity-5 border-opacity-5 group sm:w-full  ">
+              <div className="w-10/12 p-3 rounded-xl border bg-white bg-opacity-5 border-opacity-5 group sm:w-full  ">
                 <Link href="/Coding">
                   <a
                     title="Browse Hero Section blocks"
@@ -169,7 +167,7 @@ export default function Events() {
                   >
                     <img
                       src="https://i.postimg.cc/cLt7V59d/coding.png"
-                      className="m-auto"
+                      className="m-auto "
                       alt="Hero Section"
                     />
 

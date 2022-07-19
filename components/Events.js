@@ -4,7 +4,7 @@ export const Events = () => {
     <div className="bg-[#020314]">
       <h2 className="lg:w-7/12 m-auto text-center font-bold text-3xl md:text-5xl text-white mt-8 mb-16 ">
         {' '}
-        SYGMA2022- EVENTS
+        SYGMA 2022- EVENTS
       </h2>{' '}
       <div
         className=" h-7/12 -top-32 relative overflow-auto pb-32  px-6 lg:overflow-x-hidden py-12 lg:7/12 after:lg:py-0"

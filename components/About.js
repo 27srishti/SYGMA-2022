@@ -11,7 +11,7 @@ export const About = () => {
         <div className=" rounded-2xl border border-white-700 border-opacity-70 text-center -top-24  mx-auto md:w-10/12 p-5 px-3 md:px-5 lg:px-16 xl:px-20 relative md:rounded-2xl border border-gray-700 border-opacity-70 bg-gray-900 bg-opacity-20 backdrop-blur-xl shadow-2xl  md:-mt-20 lg:-mt-24 xl:-mt-32 transition duration-700 group-hover:scale-95">
           <h2 className="  lg:w-7/12 m-auto text-center font-bold text-3xl md:text-5xl text-white mt-8 mb-16">
             {' '}
-            SYGMA2022- MELIORA
+            SYGMA 2022- MELIORA
           </h2>
           SYGMA MELIORA is a National level IT fest orgranised by the BCA
           department students of Shri Dharmasthala Manjnatheshwara College of

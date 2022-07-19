@@ -36,12 +36,11 @@ export default function Events() {
                         Events
                       </a>
                     </Link>
-                    {/* <Link
-                      href="#"
-                      className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                    >
-                      Sponsors
-                    </Link> */}
+                    <Link href="/Sponsor">
+                  <a className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                    Sponsor
+                  </a>
+                </Link>
                     <Link href="/#Faq">
                       <a className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                         FAQ`s
@@ -131,12 +130,11 @@ export default function Events() {
                   </a>
                 </Link>
 
-                {/* <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                  >
-                    Sponsors
-                  </a> */}
+                <Link href="/Sponsor">
+                  <a className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                    Sponsor
+                  </a>
+                </Link>
                 <Link href="/#Faq">
                   <a className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                     FAQ`s

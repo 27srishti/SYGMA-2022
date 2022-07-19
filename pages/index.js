@@ -1,14 +1,14 @@
-import React from 'react';
-import { About } from '../components/about';
-import { Events } from '../components/Events';
-import { Gallery } from '../components/Gallery';
-import { Faq } from '../components/Faq';
-import { Footer } from '../components/Footer';
-import { Sponsors } from '../components/Sponsors';
-import Link from 'next/link';
-import { useState } from 'react';
-import { Transition } from '@headlessui/react';
-import Image from 'next/image';
+import React from "react";
+import { About } from "../components/about";
+import { Events } from "../components/Events";
+import { Gallery } from "../components/Gallery";
+import { Faq } from "../components/Faq";
+import { Footer } from "../components/Footer";
+import { Sponsors } from "../components/Sponsors";
+import Link from "next/link";
+import { useState } from "react";
+import { Transition } from "@headlessui/react";
+import Image from "next/image";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +18,7 @@ function Nav() {
       className="absolute w-full  bg-[#020314] opacity-80
     "
     >
-      <div className='border-b-2 h-20 border-white border-opacity-10 mb-10'>
+      <div className="border-b-2 h-20 border-white border-opacity-10 mb-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className=" w-10 flex items-center h-16">
             <div className="flex items-center">
@@ -40,17 +40,17 @@ function Nav() {
                         Events
                       </a>
                     </Link>
-                    {/* <Link
-                      href="#"
+                    <Link href="/Sponsor">
+                      <a
                       className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     >
-                      Sponsors
-                    </Link> */}
+                      Sponsor</a>
+                    </Link>
                     <Link href="#Faq">
                       <a className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                         FAQ`s
                       </a>
-                    </Link>{' '}
+                    </Link>{" "}
                     <Link href="#Footer">
                       <a className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                         Contact
@@ -136,14 +136,11 @@ function Nav() {
                     Events
                   </a>
                 </Link>
-
-                {/* <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                  >
-                    Sponsors
-                  </a> */}
-
+                <Link href="/Sponsor">
+                  <a className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                    Sponsor
+                  </a>
+                </Link>
                 <a
                   href="#Faq"
                   className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
@@ -184,7 +181,7 @@ function Nav() {
             SYGMA 2022 - MELIORA
           </h1>
           <h1 className="text-x1 p-5 text-gray-800 dark:text-white md:text-2xl">
-           pursuit Of Betterness
+            Pursuit of the Better
           </h1>
 
           <div className="w-full mb-10 max-w-sm mx-auto mt-6  dark:border-gray-600  focus-within:ring-blue-300 dark:focus-within:border-blue-300 focus-within:ring-opacity-40">
@@ -193,7 +190,7 @@ function Nav() {
                 type="button"
                 className="h-10  px-4 py-2 m-1 text-white transition-colors duration-200 transform bg-sky-700 rounded-md hover:bg-blue-800 focus:outline-none focus:bg-blue-400"
               >
-                Register Now
+                Register Now 
               </a>
             </Link>
           </div>

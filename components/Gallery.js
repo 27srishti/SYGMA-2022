@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 export const Gallery = () => {
   return (
-    <div className="mx-auto h-78 bottom-8 -mt-32 bg-gradient-to-b from-sky-900 via-rose-400 to-yellow-400  pb-10  px-6  py-12 lg:7/12 after:lg:py-0">
+    <div className="mx-auto h-78 bottom-8 -mt-32 bg-gradient-to-b from-sky-900 via-rose-400 to-yellow-400  pb-10  px-6  py-12 lg:7/12 md:7 after:lg:py-0">
       <div className=" w-78 my-28  mt-10 mx-1 mb-10 absolute mh-96  md:mw-10 lg:mw-10 rounded-2xl border   p-5 relative md:rounded-2xl border border-gray-700 border-opacity-70 bg-gray-900 bg-opacity-20 backdrop-blur-xl shadow-2xl lg:w-3/5 lg:mx-auto">
         <div className="px-6">
           <h2 className=" mb-10 m-auto text-center font-bold  text-3xl lg:text-3x1 md:text-4xl text-white ">
