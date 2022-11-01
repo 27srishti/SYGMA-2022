@@ -1,5 +1,5 @@
 import React from "react";
-import { About } from "../components/about";
+import { About } from "../components/About";
 import { Events } from "../components/Events";
 import { Gallery } from "../components/Gallery";
 import { Faq } from "../components/Faq";
